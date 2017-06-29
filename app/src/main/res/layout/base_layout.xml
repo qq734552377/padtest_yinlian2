@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/base_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="30sp"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+        <TextView
+
+            android:id="@+id/base_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:gravity="center_vertical"
+            android:textSize="25sp"
+            />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ceshi_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/base_ceshi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="测试"
+            android:gravity="center"
+            style="@style/BtStyle"
+            />
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/base_bt1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="测试失败"
+            android:gravity="center"
+            style="@style/BtStyle"
+            />
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/base_bt2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="测试成功"
+            android:gravity="center"
+            style="@style/BtStyle"
+            />
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+</LinearLayout>

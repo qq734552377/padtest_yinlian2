@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fragments.BluetoothFragment">
+
+
+    <TextView
+        android:id="@+id/bluetooth_tv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:text="@string/bluetoothText"
+        />
+
+
+
+    <ListView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5" >
+    </ListView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/open"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="@style/BtStyle"
+            android:text="打开蓝牙" />
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/saomiao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            style="@style/BtStyle"
+            android:layout_weight="1"
+            android:text="搜索蓝牙" />
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/fail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="@style/BtStyle"
+            android:text="测试失败" />
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/success"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            style="@style/BtStyle"
+            android:text="测试成功" />
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>
